@@ -12,4 +12,8 @@ public class FactorialTest {
     public void shouldCalcutaleFactorialOfZero(){
         assertEquals(1,Factorial.factorial(0));
     }
+
+    public void shouldCalculateFactorialOfOne(){
+        assertEquals(1, Factorial.factorial(1));
+    }
 }
