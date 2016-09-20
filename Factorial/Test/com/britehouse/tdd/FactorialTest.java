@@ -20,4 +20,7 @@ public class FactorialTest {
 
     @Test
     public void shouldCalculateFactorialOfTwo() {assertEquals(2, Factorial.factorial(2));}
+
+    @Test
+    public void shouldCalculateFactorialOfThree() {assertEquals(6, Factorial.factorial(3));}
 }
