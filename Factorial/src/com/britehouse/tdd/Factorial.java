@@ -6,6 +6,11 @@ package com.britehouse.tdd;
 public class Factorial {
 
     public static int factorial(int num) {
-        return 1;
+        if (num < 2){
+            return 1;
+        }else{
+            return factorial(num - 1) * num;
+        }
+
     }
 }

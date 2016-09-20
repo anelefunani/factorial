@@ -13,7 +13,11 @@ public class FactorialTest {
         assertEquals(1,Factorial.factorial(0));
     }
 
+    @Test
     public void shouldCalculateFactorialOfOne(){
         assertEquals(1, Factorial.factorial(1));
     }
+
+    @Test
+    public void shouldCalculateFactorialOfTwo() {assertEquals(2, Factorial.factorial(2));}
 }
